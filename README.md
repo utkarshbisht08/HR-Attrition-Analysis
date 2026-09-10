@@ -1,14 +1,16 @@
 # HR Employee Attrition & Performance Analysis
 
 ## Project Overview
-This project involves analysis of *IBM HR Analytics Employee Attrition & Performance* to uncover the factors that lead to employee attrition along with the performance analysis of employees. Using SQL for data validation, cleaning and analysis along with Power BI for visualization, this project points out the leading factors behind attrition like *WHY* employees are leaving, which *department* and *job role* have higher attrition rate etc. It also involves analysing employee performance and evaluating the relationship between their performance and attrition, and whether low job satisfaction or low environment satisfaction is responsible for their attrition or whether any other factors contribute to attrition.
+This project involves the analysis of the *IBM HR Analytics Employee Attrition & Performance* dataset to identify the key factors associated with employee attrition. Using SQL for data validation, cleaning and analysis along with Power BI for visualization, this project analyzes attrition across departments, age groups, income ranges, overtime, distance from home, and job satisfaction to understand which employee groups have higher attrition rates.
 
 ## Business Problem
-A fictional dataset represents an organization which needs to uncover the factors that lead to employee attrition so that the HR and organization leaders can take decisions and improve employee tenure.
+A fictional dataset represents an organization that needs to understand the factors contributing to employee attrition so that HR teams and organizational leaders can take informed decisions to improve employee retention.
 
 ## Business Objective
-- Uncover the factors that lead to employee attrition.
-- Provide recommendations based on insights so that the HR and organizational leaders can take better decisions to improve employee tenure.
+- Identify the key factors associated with employee attrition.
+- Analyze attrition patterns across different employee segments.
+- Identify departments and employee groups with relatively higher attrition rates.
+- Provide recommendations based on insights to support employee retention.
 
 ## Stakeholders
 - HR Department
@@ -34,6 +36,9 @@ A fictional dataset represents an organization which needs to uncover the factor
 
 ## Key Findings
 - Total records: 1,470
+- Employees attrited: 237
+- Overall attrition rate: 16.12%
+- Average monthly income: $6,503
 - No duplicate employee records found.
 - No NULL values detected in the validated columns.
 - No invalid values found for Age, Monthly Income, or Distance From Home.
@@ -41,31 +46,33 @@ A fictional dataset represents an organization which needs to uncover the factor
 **The dataset passed all validation checks and was considered suitable for analysis.**
 
 ## Business Analysis
+The following analyses were conducted to identify factors associated with employee attrition:
+
 - Attrition by department
 - Attrition by age group
-- Attrition by monthly salary
-- Attrition by job satisfaction
 - Attrition by overtime
+- Attrition by income range
 - Attrition by distance from home
-
-The following analyses were conducted to identify factors associated with employee attrition.
+- Attrition by job satisfaction
 
 ## Dashboard
 ![HR ATTRITION Dashboard](images/dashboard.png)
 
 ## Insights
-- Employee attrition varies, with lower satisfaction levels generally associated with higher attrition.
-- Younger employees show a higher tendency to leave the organization compared with older employees.
-- Employees living far from the workplace show relatively higher attrition.
-- Attrition also varies across monthly income levels, with lower-income employees showing relatively higher attrition.
-- Attrition differs across departments.
+- Employees working overtime show a substantially higher attrition rate compared with employees who do not work overtime.
+- Younger employees, particularly those aged 18–25, show the highest attrition rate among the analyzed age groups.
+- Attrition varies across departments, with Sales showing the highest attrition rate, followed by Human Resources and Research & Development.
+- Employees in the lowest income range show a relatively higher attrition rate compared with higher-income groups.
+- Employees living farther from the workplace show higher attrition rates, with the 21+ KM group showing the highest rate.
+- Employees with the lowest job satisfaction level show the highest attrition rate, while higher satisfaction levels generally show lower attrition.
 
 ## Recommendations
-- Conduct regular employee satisfaction surveys and address issues related to management, recognition, and career growth.
-- HR should investigate high-attrition departments to identify department-specific issues such as workload and compensation.
-- Introduce stronger career-development programs, mentorship, skill-building opportunities, and clear career progression for younger employees.
-- Providing flexible or hybrid work options and transportation support for employees with long distances from home can reduce attrition.
-- Review compensation for lower-income and high-attrition employee groups and provide competitive pay and incentives.
+- HR should investigate workload and employee well-being among employees working overtime and consider workload management initiatives.
+- Develop stronger career-development programs, mentorship, skill-building opportunities, and clear career progression for younger employees.
+- HR should investigate high-attrition departments to identify department-specific issues such as workload, management, and compensation.
+- Review compensation for lower-income employee groups and consider competitive pay, incentives, and growth opportunities.
+- Consider flexible or hybrid work options and transportation support for employees with longer commuting distances.
+- Conduct regular employee satisfaction surveys and address issues related to management, recognition, career growth, and workplace experience.
 
 ## Author
 **Utkarsh Bisht**
