@@ -1,7 +1,7 @@
 # HR Employee Attrition & Performance Analysis
 
 ## Project Overview
-This project involves the analysis of the *IBM HR Analytics Employee Attrition & Performance* dataset to identify the key factors associated with employee attrition. Using SQL for data validation, cleaning and analysis along with Power BI for visualization, this project analyzes attrition across departments, age groups, income ranges, overtime, distance from home, and job satisfaction to understand which employee groups have higher attrition rates.
+This project involves the analysis of *IBM HR Analytics Employee Attrition & Performance* dataset to identify the key factors associated with employee attrition. Using SQL for data validation, cleaning and analysis along with Power BI for visualization, this project analyzes attrition across departments, age groups, income ranges, overtime, distance from home, and job satisfaction to understand which employee groups have higher attrition rates.
 
 ## Business Problem
 A fictional dataset represents an organization that needs to understand the factors contributing to employee attrition so that HR teams and organizational leaders can take informed decisions to improve employee retention.
@@ -56,15 +56,15 @@ The following analyses were conducted to identify factors associated with employ
 - Attrition by job satisfaction
 
 ## Dashboard
-![HR ATTRITION Dashboard](images/dashboard.png)
+![HR Analytics Dashboard](images/dashboard.png)
 
 ## Insights
 - Employees working overtime show a substantially higher attrition rate compared with employees who do not work overtime.
 - Younger employees, particularly those aged 18–25, show the highest attrition rate among the analyzed age groups.
 - Attrition varies across departments, with Sales showing the highest attrition rate, followed by Human Resources and Research & Development.
 - Employees in the lowest income range show a relatively higher attrition rate compared with higher-income groups.
-- Employees living farther from the workplace show higher attrition rates, with the 21+ KM group showing the highest rate.
-- Employees with the lowest job satisfaction level show the highest attrition rate, while higher satisfaction levels generally show lower attrition.
+- Employees living farther from the workplace show higher attrition rates, with the 21+ KM group showing the highest attrition rate.
+- Employees with lower job satisfaction levels show higher attrition rates, with the lowest job satisfaction group showing the highest attrition rate.
 
 ## Recommendations
 - HR should investigate workload and employee well-being among employees working overtime and consider workload management initiatives.
